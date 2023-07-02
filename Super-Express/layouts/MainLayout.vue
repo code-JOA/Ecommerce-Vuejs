@@ -25,7 +25,7 @@
           Buyer Protection
         </li>
         <li class="px-3 hover:text-[#ff4646] cursor-pointer">
-          <Icon name="" size="17" />
+          <Icon name="ic:sharp-install-mobile" size="17" />
           App
         </li>
       </ul>
