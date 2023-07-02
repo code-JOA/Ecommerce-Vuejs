@@ -100,6 +100,18 @@
                 type="text"
                 v-model="searchItem"
               />
+
+              <Icon
+                v-if="isSearching"
+                name="eos-icons:loading"
+                size="25"
+                class="mr-2"
+              />
+              <button
+                class="flex items-center h-[100%] p-1.5 px-2 bg-[#FF4646]"
+              >
+                <Icon name="ph:magnifying-glass" size="20" color="#ffffff" />
+              </button>
             </div>
           </div>
         </div>
