@@ -173,37 +173,37 @@
 </template>
 
 <script setup>
-import { useUserStore } from "~/stores/user";
-const userStore = useUserStore();
+// import { useUserStore } from "~/stores/user";
+// const userStore = useUserStore();
 
-const client = useSupabaseClient();
-const user = useSupabaseUser();
+// const client = useSupabaseClient();
+// const user = useSupabaseUser();
 
 let isAccountMenu = ref(false);
-let isCartHover = ref(false);
-let isSearching = ref(false);
-let searchItem = ref("");
-let items = ref(null);
+// let isCartHover = ref(false);
+// let isSearching = ref(false);
+// let searchItem = ref("");
+// let items = ref(null);
 
-const searchByName = useDebounce(async () => {
-  isSearching.value = true;
-  items.value = await useFetch(
-    `/api/prisma/search-by-name/${searchItem.value}`
-  );
-  isSearching.value = false;
-}, 100);
+// const searchByName = useDebounce(async () => {
+//   isSearching.value = true;
+//   items.value = await useFetch(
+//     `/api/prisma/search-by-name/${searchItem.value}`
+//   );
+//   isSearching.value = false;
+// }, 100);
 
-watch(
-  () => searchItem.value,
-  async () => {
-    if (!searchItem.value) {
-      setTimeout(() => {
-        items.value = "";
-        isSearching.value = false;
-        return;
-      }, 500);
-    }
-    searchByName();
-  }
-);
+// watch(
+//   () => searchItem.value,
+//   async () => {
+//     if (!searchItem.value) {
+//       setTimeout(() => {
+//         items.value = "";
+//         isSearching.value = false;
+//         return;
+//       }, 500);
+//     }
+//     searchByName();
+//   }
+// );
 </script>
