@@ -94,7 +94,12 @@
             <div
               class="flex items-center border-2 border-[#ff4646] rounded-md w-full"
             >
-              <input class />
+              <input
+                class="w-full placeholder-gray-400 text-sm pl-3 focus:outline-none"
+                placeholder="kitchen accessories"
+                type="text"
+                v-model="searchItem"
+              />
             </div>
           </div>
         </div>
