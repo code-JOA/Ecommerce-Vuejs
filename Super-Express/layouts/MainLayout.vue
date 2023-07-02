@@ -110,4 +110,5 @@
 
 <script setup>
 let isAccountMenu = ref(false);
+let searchItem = ref("");
 </script>
