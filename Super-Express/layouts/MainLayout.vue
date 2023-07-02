@@ -28,9 +28,18 @@
           <Icon name="ic:sharp-install-mobile" size="17" />
           App
         </li>
+        <li
+          @mouseenter="isAccountMenu = true"
+          @mouseleave="isAccountMenu = false"
+          class="relative flex items-center px-2.5 hover:text-[#ff4646] h-full cursor-pointer"
+          :class="isAccountMenu ? 'bg-white border z-40 
+        shadow-[0_15px_100px_40px_rgba(0,0,0,0.3)]' : border border"
+        ></li>
       </ul>
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+let isAccountMenu = ref(false);
+</script>
