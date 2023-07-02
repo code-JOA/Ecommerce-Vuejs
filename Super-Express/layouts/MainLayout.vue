@@ -34,7 +34,11 @@
           class="relative flex items-center px-2.5 hover:text-[#ff4646] h-full cursor-pointer"
           :class="isAccountMenu ? 'bg-white border z-40 
         shadow-[0_15px_100px_40px_rgba(0,0,0,0.3)]' : border border"
-        ></li>
+        >
+          <Icon name="ph:user-thin" size="17" />
+          Account
+          <Icon name="mdi:chevron-down" size="15" class="ml-5" />
+        </li>
       </ul>
     </div>
   </div>
