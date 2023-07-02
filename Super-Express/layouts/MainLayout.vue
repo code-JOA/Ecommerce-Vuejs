@@ -88,6 +88,16 @@
         <NuxtLink to="/" class="min-w-[170px]">
           <img width="170" src="/AliExpress-logo.png" />
         </NuxtLink>
+
+        <div class="max-w-[700px] w-full md:block hidden">
+          <div class="relative">
+            <div
+              class="flex items-center border-2 border-[#ff4646] rounded-md w-full"
+            >
+              <input class />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
