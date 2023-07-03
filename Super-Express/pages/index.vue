@@ -29,7 +29,7 @@ let products = [
     id: 2,
     title: "Title 2",
     description: "This is a description",
-    url: "https:/picsum.photos/id/71/800/800",
+    url: "https://fastly.picsum.photos/id/71/800/800.jpg?hmac=YMpGajiRfAQpkjnUR7FkpNcgDqj3dQDYg6wocQBppRI",
     price: 6999,
   },
 
