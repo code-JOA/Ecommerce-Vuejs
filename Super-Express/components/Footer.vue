@@ -5,7 +5,7 @@
 
         <div class="md:flex gap-4 justify-between w-full">
 
-            <div >
+            <div class="md:w-[50%] pt-4">
 
             </div>
         </div>
