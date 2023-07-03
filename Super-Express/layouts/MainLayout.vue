@@ -158,6 +158,7 @@
 
 <script setup>
 let isAccountMenu = ref(false);
+let isCartHover = ref;
 let isSearching = ref(true);
 let searchItem = ref("");
 </script>
