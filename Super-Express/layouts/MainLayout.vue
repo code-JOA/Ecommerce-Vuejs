@@ -169,6 +169,7 @@
 </template>
 
 <script setup>
+import
 let isAccountMenu = ref(false);
 let isCartHover = ref(false);
 let isSearching = ref(true);
