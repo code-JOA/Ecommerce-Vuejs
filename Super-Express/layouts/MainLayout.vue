@@ -113,6 +113,8 @@
                 <Icon name="ph:magnifying-glass" size="20" color="#ffffff" />
               </button>
             </div>
+
+            <div></div>
           </div>
         </div>
       </div>
@@ -122,5 +124,6 @@
 
 <script setup>
 let isAccountMenu = ref(false);
+let isSearching = ref(true);
 let searchItem = ref("");
 </script>
