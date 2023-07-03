@@ -6,6 +6,8 @@
         <div class="md:flex gap-4 justify-between w-full">
 
             <div class="md:w-[50%] pt-4">
+                                    <div class="text-lg font-semibold text-[#282828]">Browse by Category</div>
+
 
             </div>
         </div>
