@@ -140,7 +140,7 @@
             <span
               class="absolute flex items-center justify-center -right-[3px] top-0 bg-[#FF4646] h-[17px] min-w-[17px] text-xs text-white px-0.5 rounded-full"
             >
-              {{ userStore.cart.length }}
+              <!-- {{ userStore.cart.length }} -->
             </span>
             <div class="min-w-[40px]">
               <Icon
@@ -158,7 +158,7 @@
 
 <script setup>
 let isAccountMenu = ref(false);
-let isCartHover = ref;
+let isCartHover = ref(false);
 let isSearching = ref(true);
 let searchItem = ref("");
 </script>
