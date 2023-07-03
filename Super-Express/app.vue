@@ -1,7 +1,18 @@
 <template>
   <div class="fixed z-[-1] bg-[#f2f2f2] w-full h-[100vh]" />
   <NuxtPage />
-  <MenuOverlay />
+  <MenuOverlay
+    :class="[
+      {
+        'max-h-[100vh] transition-all duration-200 ease-in visible':
+          userStore.isMenuOverlay,
+      },
+      {
+        'max-h-0 transition-all duration-200 ease-out invisible':
+          !userStore.isMenuOverlay,
+      },
+    ]"
+  />
 </template>
 
 <script setup>
