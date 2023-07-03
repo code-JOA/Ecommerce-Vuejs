@@ -11,15 +11,7 @@
          <div class="md:w-[50%] pt-4">
             <div class="text-lg font-semibold text-[#282828]">AliExpress Multi-Language Sites</div>
             <div class="text-[#999999] text-sm">Russian, Portuguese, Spanish, French, German, Italian, Dutch, Turkish, Japanese, Korean, Thai, Vietnamese, Arabic, Hebrew, Polish</div>
-        </div>
-
-        <div class="md:w-[50%] pt-4">
-            <div class="text-lg font-semibold text-[#282828]">Browse by Category</div>
-            <div class="text-[#999999] text-sm">All Popular, Product, Promotion, Low Price, Great Value, Reviews, Blog, Seller Portal, BLACK FRIDAY, AliExpress Assistant</div>
-        </div>
-
-
-        
+        </div>        
             </div>
 
              <!-- <div class="md:flex gap-4 justify-between w-full">
