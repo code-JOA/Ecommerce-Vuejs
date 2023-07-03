@@ -114,7 +114,9 @@
               </button>
             </div>
 
-            <div></div>
+            <div class="absolute bg-white max-w-[700px] h-auto w-full">
+              <div class="p-1"></div>
+            </div>
           </div>
         </div>
       </div>
