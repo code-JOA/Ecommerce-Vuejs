@@ -31,8 +31,8 @@
 </template>
 
 <script setup>
-// const client = useSupabaseClient()
-// const user = useSupabaseUser()
+const client = useSupabaseClient();
+const user = useSupabaseUser();
 
 watchEffect(() => {
   if (user.value) {
